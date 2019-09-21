@@ -37,7 +37,7 @@
     "extra": {
         "react-inspector": {
             "collectors": {
-                "WyriHaximus\\React\\Inspector\\Http\\Middleware": "src/"
+                "WyriHaximus\\React\\Inspector\\SimpleORM": "src/"
             }
         }
     },
