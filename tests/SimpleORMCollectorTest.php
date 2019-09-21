@@ -15,14 +15,16 @@ final class SimpleORMCollectorTest extends TestCase
 {
     public function testCollect(): void
     {
-        $middleware =  new QueryCountMiddleware();
+        $middleware =  new QueryCountMiddleware(1);
         $collector = new SimpleORMCollector();
         $collector->register('http-server', $middleware);
         $metrics = $this->await(Promise::fromObservable($collector->collect()->toArray()));
 
-        self::assertCount(1, $metrics);
+        self::assertCount(4, $metrics);
+        /** @var Metric $metric */
         foreach ($metrics as $metric) {
             self::assertInstanceOf(Metric::class, $metric);
+            self::assertSame(0.0, $metric->getValue());
         }
     }
 }

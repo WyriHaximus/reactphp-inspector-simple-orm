@@ -28,12 +28,14 @@ final class SimpleORMCollector implements CollectorInterface
          * @var MeasureMiddleware $middleware
          */
         foreach ($this->middleware as $key => $middleware) {
-            /** @var Metric $metric */
-            $metrics[] = new Metric(
-                $key . '.query.total',
-                $middleware->getCount()
-            );
-            $middleware->resetCount();
+SUppor            foreach ($middleware->getCounters() as $metricKey => $metricValue) {
+                /** @var Metric $metric */
+                $metrics[] = new Metric(
+                    $key . '.query.' . $metricKey,
+                    $metricValue
+                );
+            }
+            $middleware->resetCounters();
         }
 
         return observableFromArray($metrics);

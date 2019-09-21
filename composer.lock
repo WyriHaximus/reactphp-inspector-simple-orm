@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "b64a6954d5e8bf4e8c73a3a7324fa545",
@@ -1833,6 +1833,43 @@
             "time": "2019-08-24T08:43:50+00:00"
         },
         {
+            "name": "wyrihaximus/constants",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/WyriHaximus/php-constants.git",
+                "reference": "0d99eede070b956ae405511b993484a59316afb0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/WyriHaximus/php-constants/zipball/0d99eede070b956ae405511b993484a59316afb0",
+                "reference": "0d99eede070b956ae405511b993484a59316afb0",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0 || ^5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/Numeric/constants.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cees-Jan Kiewiet",
+                    "email": "ceesjank@gmail.com",
+                    "homepage": "https://www.wyrihaximus.net/"
+                }
+            ],
+            "description": "Collection of constants for PHP",
+            "time": "2019-09-21T22:14:13+00:00"
+        },
+        {
             "name": "wyrihaximus/doctrine-annotation-autoloader",
             "version": "1.0.1",
             "source": {
@@ -2026,12 +2063,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/WyriHaximus/reactphp-simple-orm.git",
-                "reference": "e09eea473a24fabe6d85abf949402c541ea0341b"
+                "reference": "b55e08f94f9a4b077745c38e603c26c63b8fa521"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WyriHaximus/reactphp-simple-orm/zipball/e09eea473a24fabe6d85abf949402c541ea0341b",
-                "reference": "e09eea473a24fabe6d85abf949402c541ea0341b",
+                "url": "https://api.github.com/repos/WyriHaximus/reactphp-simple-orm/zipball/b55e08f94f9a4b077745c38e603c26c63b8fa521",
+                "reference": "b55e08f94f9a4b077745c38e603c26c63b8fa521",
                 "shasum": ""
             },
             "require": {
@@ -2046,11 +2083,13 @@
                 "react/dns": "^0.4.17 || ^1.0.0",
                 "roave/better-reflection": "^3.5",
                 "voryx/pgasync": "^2.0",
+                "wyrihaximus/constants": "^1.1",
                 "wyrihaximus/doctrine-annotation-autoloader": "^1.0",
                 "wyrihaximus/iterator-or-array-to-array": "^1.1"
             },
             "require-dev": {
                 "robmorgan/phinx": "^0.10.7 || ^0.11.0",
+                "thecodingmachine/safe": "^0.1.16",
                 "vlucas/phpdotenv": "^3.3",
                 "wyrihaximus/async-test-utilities": "^1.1"
             },
@@ -2072,7 +2111,7 @@
                 }
             ],
             "description": "EXPERIMENTAL: Package to see how feasible a simple ORM in ReactPHP is",
-            "time": "2019-09-20T20:15:35+00:00"
+            "time": "2019-09-21T22:47:56+00:00"
         },
         {
             "name": "wyrihaximus/ticking-promise",
@@ -2234,16 +2273,16 @@
     "packages-dev": [
         {
             "name": "amphp/amp",
-            "version": "v2.2.0",
+            "version": "v2.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/amphp/amp.git",
-                "reference": "c6a775a6c9fdd9ca4c909647a19b02d2d11a0568"
+                "reference": "49a0bf693d5e60e578e5518d87fe7025244f9db5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/amphp/amp/zipball/c6a775a6c9fdd9ca4c909647a19b02d2d11a0568",
-                "reference": "c6a775a6c9fdd9ca4c909647a19b02d2d11a0568",
+                "url": "https://api.github.com/repos/amphp/amp/zipball/49a0bf693d5e60e578e5518d87fe7025244f9db5",
+                "reference": "49a0bf693d5e60e578e5518d87fe7025244f9db5",
                 "shasum": ""
             },
             "require": {
@@ -2254,7 +2293,7 @@
                 "amphp/phpunit-util": "^1",
                 "ext-json": "*",
                 "phpstan/phpstan": "^0.8.5",
-                "phpunit/phpunit": "^6.0.9",
+                "phpunit/phpunit": "^6.0.9 | ^7",
                 "react/promise": "^2"
             },
             "type": "library",
@@ -2307,7 +2346,7 @@
                 "non-blocking",
                 "promise"
             ],
-            "time": "2019-08-02T20:37:42+00:00"
+            "time": "2019-09-21T21:29:37+00:00"
         },
         {
             "name": "amphp/byte-stream",
