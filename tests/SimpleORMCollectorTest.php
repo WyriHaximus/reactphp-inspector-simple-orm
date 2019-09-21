@@ -17,7 +17,7 @@ final class SimpleORMCollectorTest extends TestCase
     {
         $middleware =  new QueryCountMiddleware(1);
         $collector = new SimpleORMCollector();
-        $collector->register('http-server', $middleware);
+        $collector->register('primairy', $middleware);
         $metrics = $this->await(Promise::fromObservable($collector->collect()->toArray()));
 
         self::assertCount(4, $metrics);

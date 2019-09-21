@@ -28,7 +28,7 @@ final class SimpleORMCollector implements CollectorInterface
          * @var MeasureMiddleware $middleware
          */
         foreach ($this->middleware as $key => $middleware) {
-SUppor            foreach ($middleware->getCounters() as $metricKey => $metricValue) {
+            foreach ($middleware->getCounters() as $metricKey => $metricValue) {
                 /** @var Metric $metric */
                 $metrics[] = new Metric(
                     $key . '.query.' . $metricKey,
