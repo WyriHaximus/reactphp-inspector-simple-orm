@@ -20,7 +20,7 @@ final class SimpleORMCollectorTest extends TestCase
         $collector->register('primairy', $middleware);
         $metrics = $this->await(Promise::fromObservable($collector->collect()->toArray()));
 
-        self::assertCount(4, $metrics);
+        self::assertCount(5, $metrics);
         /** @var Metric $metric */
         foreach ($metrics as $metric) {
             self::assertInstanceOf(Metric::class, $metric);

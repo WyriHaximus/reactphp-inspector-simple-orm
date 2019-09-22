@@ -2063,12 +2063,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/WyriHaximus/reactphp-simple-orm.git",
-                "reference": "b55e08f94f9a4b077745c38e603c26c63b8fa521"
+                "reference": "c2359b30151b1d38e1b847f66f3f38ed3a38f90b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WyriHaximus/reactphp-simple-orm/zipball/b55e08f94f9a4b077745c38e603c26c63b8fa521",
-                "reference": "b55e08f94f9a4b077745c38e603c26c63b8fa521",
+                "url": "https://api.github.com/repos/WyriHaximus/reactphp-simple-orm/zipball/c2359b30151b1d38e1b847f66f3f38ed3a38f90b",
+                "reference": "c2359b30151b1d38e1b847f66f3f38ed3a38f90b",
                 "shasum": ""
             },
             "require": {
@@ -2111,7 +2111,7 @@
                 }
             ],
             "description": "EXPERIMENTAL: Package to see how feasible a simple ORM in ReactPHP is",
-            "time": "2019-09-21T22:47:56+00:00"
+            "time": "2019-09-22T16:29:29+00:00"
         },
         {
             "name": "wyrihaximus/ticking-promise",
