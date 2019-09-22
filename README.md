@@ -1,10 +1,10 @@
-# "ReactPHP Inspector collector for wyrihaximus/react-http-middleware-measure
+# "ReactPHP Inspector collector for wyrihaximus/react-simple-orm
 
-[![Build Status](https://travis-ci.com/WyriHaximus/reactphp-inspector-http-middleware-measure.svg?branch=master)](https://travis-ci.com/WyriHaximus/reactphp-inspector-http-middleware-measure)
-[![Latest Stable Version](https://poser.pugx.org/WyriHaximus/react-inspector-http-middleware-measure/v/stable.png)](https://packagist.org/packages/WyriHaximus/react-inspector-http-middleware-measure)
-[![Total Downloads](https://poser.pugx.org/WyriHaximus/react-inspector-http-middleware-measure/downloads.png)](https://packagist.org/packages/WyriHaximus/react-inspector-http-middleware-measure)
-[![Code Coverage](https://scrutinizer-ci.com/g/WyriHaximus/reactphp-inspector-http-middleware-measure/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/WyriHaximus/reactphp-inspector-http-middleware-measure/?branch=master)
-[![License](https://poser.pugx.org/WyriHaximus/react-inspector-http-middleware-measure/license.png)](https://packagist.org/packages/WyriHaximus/react-inspector-http-middleware-measure)
+[![Build Status](https://travis-ci.com/WyriHaximus/reactphp-inspector-simple-orm.svg?branch=master)](https://travis-ci.com/WyriHaximus/reactphp-inspector-simple-orm)
+[![Latest Stable Version](https://poser.pugx.org/WyriHaximus/react-inspector-simple-orm/v/stable.png)](https://packagist.org/packages/WyriHaximus/react-inspector-simple-orm)
+[![Total Downloads](https://poser.pugx.org/WyriHaximus/react-inspector-simple-orm/downloads.png)](https://packagist.org/packages/WyriHaximus/react-inspector-simple-orm)
+[![Code Coverage](https://scrutinizer-ci.com/g/WyriHaximus/reactphp-inspector-simple-orm/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/WyriHaximus/reactphp-inspector-simple-orm/?branch=master)
+[![License](https://poser.pugx.org/WyriHaximus/react-inspector-simple-orm/license.png)](https://packagist.org/packages/WyriHaximus/react-inspector-simple-orm)
 [![PHP 7 ready](http://php7ready.timesplinter.ch/WyriHaximus/reactphp-http-middleware-clear-body/badge.svg)](https://travis-ci.org/WyriHaximus/reactphp-http-middleware-clear-body)
 
 # Install
@@ -12,14 +12,14 @@
 To install via [Composer](http://getcomposer.org/), use the command below, it will automatically detect the latest version and bind it with `^`.
 
 ```
-composer require wyrihaximus/react-inspector-http-middleware-measure
+composer require wyrihaximus/react-inspector-simple-orm
 ```
 
 # License
 
 The MIT License (MIT)
 
-Copyright (c) 2018 Cees-Jan Kiewiet
+Copyright (c) 2019 Cees-Jan Kiewiet
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
